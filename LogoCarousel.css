@@ -1,0 +1,29 @@
+/* src/components/LogoCarousel.css */
+
+.logo-carousel-container {
+  width: 80%; /* Made smaller again */
+  max-width: 800px; /* Reduced width */
+  margin: auto;
+  background-color: white; /* Keep background white */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.carousel-logo {
+  width: 100%;
+  max-height: 90px; /* Adjusted size to fit smaller carousel */
+  object-fit: contain;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-logo {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

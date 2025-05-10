@@ -1,0 +1,167 @@
+.partners-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #0d2235;
+  color: white;
+}
+
+.partners-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.partners-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.partners-subtitle {
+  font-size: 1.2rem;
+  color: #a8dadc;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.partner-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+}
+
+.partner-logo {
+  height: 150px;
+  background: #1d3557;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.partner-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.partner-content {
+  padding: 25px;
+}
+
+.partner-content h2 {
+  margin: 0 0 15px 0;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.partner-description {
+  color: #a8dadc;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.partner-programs {
+  margin-bottom: 20px;
+}
+
+.partner-programs h3 {
+  color: #a8dadc;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.partner-programs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.partner-programs li {
+  background: #1d3557;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.partner-button {
+  background: #a8dadc;
+  color: #1d3557;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.partner-button:hover {
+  background: #caf0f8;
+}
+
+.partners-cta {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 40px;
+  margin-top: 60px;
+}
+
+.partners-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.partners-cta p {
+  color: #a8dadc;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.cta-button {
+  background: #a8dadc;
+  color: #1d3557;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background: #caf0f8;
+}
+
+@media (max-width: 768px) {
+  .partners-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .partners-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .partner-card {
+    max-width: 100%;
+  }
+} 

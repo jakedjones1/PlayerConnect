@@ -1,0 +1,220 @@
+.academy-page {
+  min-height: 100vh;
+  background-color: #0D1B2A;
+  color: white;
+  padding: 40px 20px;
+}
+
+.academy-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.academy-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.academy-header p {
+  font-size: 1.2rem;
+  color: #a8dadc;
+}
+
+.academy-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Job Board Styles */
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.job-card {
+  background: #1B263B;
+  padding: 25px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+}
+
+.job-card h3 {
+  color: #a8dadc;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.job-card p {
+  margin: 8px 0;
+  color: white;
+}
+
+.job-card .company {
+  font-weight: 600;
+}
+
+.job-card .location {
+  color: #a8dadc;
+}
+
+.job-card .type {
+  font-style: italic;
+}
+
+.job-card .salary {
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+.apply-btn {
+  width: 100%;
+  padding: 12px;
+  background: #a8dadc;
+  color: #0D1B2A;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background: #caf0f8;
+}
+
+/* Financial Hub Styles */
+.lessons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.lesson-card {
+  background: #1B263B;
+  padding: 25px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+}
+
+.lesson-card h3 {
+  color: #a8dadc;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.lesson-card p {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.lesson-card .duration {
+  color: #a8dadc;
+  font-style: italic;
+}
+
+.start-lesson-btn {
+  width: 100%;
+  padding: 12px;
+  background: #a8dadc;
+  color: #0D1B2A;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.start-lesson-btn:hover {
+  background: #caf0f8;
+}
+
+/* Alternative Pathways Styles */
+.pathways-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.pathway-card {
+  background: #1B263B;
+  padding: 25px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.pathway-card:hover {
+  transform: translateY(-5px);
+}
+
+.pathway-card h3 {
+  color: #a8dadc;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.pathway-card p {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.pathway-type {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #2A3B5C;
+  color: #a8dadc;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.explore-btn {
+  width: 100%;
+  padding: 12px;
+  background: #a8dadc;
+  color: #0D1B2A;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+}
+
+.explore-btn:hover {
+  background: #caf0f8;
+}
+
+@media (max-width: 768px) {
+  .academy-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .job-listings,
+  .lessons-grid,
+  .pathways-grid {
+    grid-template-columns: 1fr;
+  }
+} 
